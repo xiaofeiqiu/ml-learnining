@@ -36,9 +36,21 @@ After uninstalling packages or an environment, it’s a good practice to clean u
 conda clean --all
 ```
 
-# Install JupyterLab with conda
+## Install JupyterLab with conda
 ```bash
 conda activate myenv
 conda install -c conda-forge jupyterlab
 jupyter-lab
 ```
+
+# Install VS Code
+Install https://code.visualstudio.com/Download
+
+## Extensions
+- python from Microsoft
+- Markdown All in One
+  - use cmd + k, v to open preview on the side
+- Jupyter from Microsoft
+  - Ctrl+Shift+P and select Jupyter: Create New Jupyter Notebook
+  - Ctrl+Shift+P enter python: select interpreter ![alt text](image.png)
+  - Then select your conda env ![alt text](image-1.png)
