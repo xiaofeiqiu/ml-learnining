@@ -1,6 +1,6 @@
 # Check List
 - [x] Env setup  
-- [ ] Python basics
+- [x] Python basics
 - [ ] Numpy bascis
 - [ ] Linear regression
 
